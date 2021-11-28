@@ -1,0 +1,56 @@
+[
+    {
+        "id": 1,
+        "name": "Dr. James Alison",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/queries/queries-1.png",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 3:00 AM - 5:00 PM",
+        "dolar": "$125.00"
+    },
+    {
+        "id": 2,
+        "name": "Dr. William",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/doctor/doctor-2.jpg",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 2:00 AM - 7:00 PM",
+        "dolar": "$255.00"
+    },
+    {
+        "id": 3,
+        "name": "Dr. Myles",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/doctor/doctor-3.jpg",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 1:00 AM - 4:00 PM",
+        "dolar": "$355.00"
+    },
+    {
+        "id": 4,
+        "name": "Dr.Fouad",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/doctor/doctor-4.jpg",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 12:00 AM - 9:00 PM",
+        "dolar": "$125.00"
+    },
+    {
+        "id": 5,
+        "name": "Dr. Mark",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/doctor/doctor-5.jpg",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 9:00 AM - 11:00 PM",
+        "dolar": "$1225.00"
+    },
+    {
+        "id": 6,
+        "name": "Dr. Corrie",
+        "title": "DNB General Medicine",
+        "img": "https://templates.envytheme.com/mediva/default/assets/img/doctor/doctor-6.jpg",
+        "location": "50 Nortambiya, UK",
+        "time": "Mon: 11:00 AM - 11:00 PM",
+        "dolar": "$100.00"
+    }
+]
