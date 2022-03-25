@@ -11,7 +11,7 @@ const Header = () => {
     const {user,LogOut} = useAuth();
     return (
         <>
-            <Navbar collapseOnSelect expand="lg"  bg="dark" variant="dark" sticky="top">
+            <Navbar style={{backgroundColor:'#e6e6ff',color:''}} collapseOnSelect expand="lg"  bg="secondar" variant="dark" sticky="top">
                 <Container>
                    <div>
                    <img style ={{width:'40px', height:'40px', 'border-radius' :'50%'}}  src={logo} alt="" />
@@ -29,7 +29,7 @@ const Header = () => {
                         <Button className='bg-info rounded-2 border-0 p-2 ms-2 ' onClick= {LogOut} variant="success">Logout</Button>:
                         <Nav.Link as={Link} to="/login">Login</Nav.Link>
                     }
-                        <Navbar.Text className='m-2'>
+                        <Navbar.Text className='m-2 text-success'>
                               Signed in as: <a href="#login"> {user?.displayName} </a>
                         </Navbar.Text>
                     </Navbar.Collapse>

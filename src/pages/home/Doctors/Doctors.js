@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { Row } from 'react-bootstrap';
+import { Container, Row } from 'react-bootstrap';
 import Details from '../details/Details';
 import Doctor from '../Doctor/Doctor';
 import loaddata from './../../../fakedata/Fakedata.json'
@@ -11,14 +11,15 @@ const Doctors = () => {
 
 
     useEffect( () => {
-
     setDoctor(loaddata);
     }
     ,[])
     return (
-        <Row id='doctors' xs={1} md={2} className="g-4 m-3">
+        <Container id='doctors'>
+            <h1>Our Specialized Doctor Details</h1>
+            <Row xs={1} md={2} className="g-4 m-3" >
+            
             {
-                
                 doctor.map(data => <Doctor
                 key ={data.key}
                 doctor={data}
@@ -26,6 +27,7 @@ const Doctors = () => {
             }
             
         </Row>
+        </Container>
     );
 };
 

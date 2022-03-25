@@ -14,8 +14,8 @@ const Doctor = (props) => {
   const {name,img,dolar,title,location,time,id}=props.doctor;
   return (
      < >
-          <Col lg={4}>
-            <Card>
+          <Col  className='h-90vh' lg={4}>
+            <Card >
               <Card.Img variant="top" src={img} />
               <Card.Body>
                 <Card.Title> {name}</Card.Title>
@@ -27,7 +27,7 @@ const Doctor = (props) => {
                 <a href=""><FaRegMoneyBillAlt/></a>  {dolar} 
                 <br />
                 <br />
-               <Link className='bg-info rounded-2 border-0 p-2 text-decoration-none text-dark' to={`/detail/${id}`}> View Details</Link>
+               <Link style={{backgroundColor:'#80e5ff'}} className='rounded-2 border-0 p-2 text-decoration-none text-dark' to={`/detail/${id}`}> View Details</Link>
                {/* <Link to={`/details/${id}`}><button className='btn btn-primary me-md-2'> View Details {name.toLowerCase()} </button></Link> */}
                 </Card.Text>
               </Card.Body>

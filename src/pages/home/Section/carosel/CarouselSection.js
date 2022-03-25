@@ -1,17 +1,19 @@
 
 import React from 'react';
-import { Carousel, Button } from 'react-bootstrap';
+import { Carousel, Image} from 'react-bootstrap';
+import img1 from '../../../../images/pic2.jpg'
+import img2 from '../../../../images/img.jpg'
+import img3 from '../../../../images/pic1.jpg'
 
 const CarouselSection = () => {
     return (
-        <div className=''>
-            
-            
-            <Carousel fade >
+        <div className='w-100' >
+            <Carousel fade className='overflow-hidden h-100'>
                 <Carousel.Item >
                     <img
-                        className="d-block w-100 h-75"
-                        src="https://templates.envytheme.com/mediva/default/assets/img/queries/queries-2.png"
+                    style={{maxHeight:'93vh'}}
+                        className="d-block w-100"
+                        src={img1}
                         alt="First slide"
                     />
                     <div className='pt-15'>
@@ -24,8 +26,9 @@ const CarouselSection = () => {
                 </Carousel.Item>
                 <Carousel.Item>
                     <img
-                        className="d-block w-100 h-75"
-                        src="https://templates.envytheme.com/mediva/default/assets/img/services/services-4.jpg"
+                     style={{maxHeight:'93vh'}}
+                        className="d-block w-100"
+                        src={img2}
                         alt="Second slide"
 
                     />
@@ -36,9 +39,10 @@ const CarouselSection = () => {
                     </Carousel.Caption>
                 </Carousel.Item>
                 <Carousel.Item>
-                    <img
-                        className="d-block w-100 h-75"
-                        src="https://templates.envytheme.com/mediva/default/assets/img/services/services-2.jpg"
+                    <Image
+                     style={{maxHeight:'93vh'}}
+                        className="d-block w-100"
+                        src={img3}
                         alt="Third slide"
                     />
 
